@@ -1,4 +1,12 @@
 // Image credits: Kickstarter
+//What type of information is stored in the constant games?
+//The name of the games, the description of each game, the total dollars pledged, the goal to fund, the number of unique people who have donated to fund a game, and the image 
+//How many properties does each game have?
+//6
+//What does each different property represent?
+//name: game title, description: summary of the game, pledged: total dollars pledged, goal: funding goal, backers: number of people who donated, img: the image of the game
+//How many games are there?
+//11
 const games = ` [
   {
     "name": "Heroes Of Mythic Americas",

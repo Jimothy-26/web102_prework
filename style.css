@@ -19,8 +19,24 @@ body {
     margin-top: -10px;
 }
 
+/*Container for Challenge 6. Submission for Challenge 7 Step 3 Customizations
+Place sentence in a container to stand out*/
+#description-container {
+    display: flex;
+    justify-content: center;
+}
+
 .stats-container {
     display: flex;
+    align-items:center; /*Add flexbox to the stats-container s. You'll want to make sure to add CSS for both display and align-items.*/ 
+}
+
+/*Add a CSS rule for stats-container that sets the cursor to pointer and box-shadow to 0 0 30px
+lightblue on hover.*/
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
